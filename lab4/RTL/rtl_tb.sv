@@ -14,7 +14,7 @@ module rtl_tb;
   );
 
   initial begin
-    // Apply all test cases
+    // Apply all test cases 
     p = 2'b00; q = 2'b00; #period;
     p = 2'b00; q = 2'b01; #period;
     p = 2'b00; q = 2'b10; #period;
